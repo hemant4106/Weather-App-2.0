@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script type="module" src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="LeftPanel">
+            <div class="Section1LeftPanel">
+                <button id="TempConversion">°C <-> °F</button>
+            </div>
+            <div class="Section2LeftHolder">
+                <div class="Section2LeftPanel">
+
+                </div>
+                <div class="Section2LeftPanelB">
+                    <img src="./assets/SunriseIcon.svg" alt="">
+                    <p id="SunriseTime"></p>
+                    <img src="./assets/SunsetIcon.svg" alt="">
+                    <p id="SunsetTime"></p>
+                </div>
+            </div>
+            <div class="WeatherSummaryBlock">
+                <div class="Section3LeftPanel">
+
+                </div>
+                <div class="Section4LeftPanel">
+
+                </div>
+            </div>
+            <div class="Section5LeftPanel">
+                <img src="./assets/7269479.jpg" id="Section5LeftPanelImg">
+            </div>
+
+        </div>
+        <div class="RightPanel">
+            <div class="Section1RightPanel">
+                <div class="Welcome">
+                    <p> Welcome!! </p>
+                    <p> Check out today's weather information</p>
+                </div>
+                <div class="EnterCity">
+                    <input id="userInput" placeholder="Enter City" type="text">
+                    <button id="submitButton">Get Weather Details</button>
+                </div>
+            </div>
+            <div class="Section2RightPanel">
+                <div class="Section2RightContent">
+                    <p class="Section2RightContentText"></p>
+                </div>
+            </div>
+            <div class="Section3RightPanel">
+                <p>More details of today's weather</p>
+                <div class="CardHolder">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
